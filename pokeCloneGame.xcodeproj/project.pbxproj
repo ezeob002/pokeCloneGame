@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804E8C201E5732E6002502F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C1F1E5732E6002502F5 /* AppDelegate.swift */; };
+		804E8C221E5732E6002502F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C211E5732E6002502F5 /* ViewController.swift */; };
+		804E8C251E5732E6002502F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804E8C231E5732E6002502F5 /* Main.storyboard */; };
+		804E8C281E5732E6002502F5 /* pokeCloneGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C261E5732E6002502F5 /* pokeCloneGame.xcdatamodeld */; };
+		804E8C2A1E5732E6002502F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804E8C291E5732E6002502F5 /* Assets.xcassets */; };
+		804E8C2D1E5732E6002502F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804E8C2B1E5732E6002502F5 /* LaunchScreen.storyboard */; };
+		804E8C381E5732E6002502F5 /* pokeCloneGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C371E5732E6002502F5 /* pokeCloneGameTests.swift */; };
+		804E8C431E5732E6002502F5 /* pokeCloneGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C421E5732E6002502F5 /* pokeCloneGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		804E8C341E5732E6002502F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804E8C141E5732E6002502F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 804E8C1B1E5732E6002502F5;
+			remoteInfo = pokeCloneGame;
+		};
+		804E8C3F1E5732E6002502F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804E8C141E5732E6002502F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 804E8C1B1E5732E6002502F5;
+			remoteInfo = pokeCloneGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		804E8C1C1E5732E6002502F5 /* pokeCloneGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokeCloneGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		804E8C1F1E5732E6002502F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		804E8C211E5732E6002502F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		804E8C241E5732E6002502F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		804E8C271E5732E6002502F5 /* pokeCloneGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pokeCloneGame.xcdatamodel; sourceTree = "<group>"; };
+		804E8C291E5732E6002502F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		804E8C2C1E5732E6002502F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		804E8C2E1E5732E6002502F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804E8C331E5732E6002502F5 /* pokeCloneGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokeCloneGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		804E8C371E5732E6002502F5 /* pokeCloneGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeCloneGameTests.swift; sourceTree = "<group>"; };
+		804E8C391E5732E6002502F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804E8C3E1E5732E6002502F5 /* pokeCloneGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokeCloneGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		804E8C421E5732E6002502F5 /* pokeCloneGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeCloneGameUITests.swift; sourceTree = "<group>"; };
+		804E8C441E5732E6002502F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804E8C191E5732E6002502F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804E8C301E5732E6002502F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804E8C3B1E5732E6002502F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804E8C131E5732E6002502F5 = {
+			isa = PBXGroup;
+			children = (
+				804E8C1E1E5732E6002502F5 /* pokeCloneGame */,
+				804E8C361E5732E6002502F5 /* pokeCloneGameTests */,
+				804E8C411E5732E6002502F5 /* pokeCloneGameUITests */,
+				804E8C1D1E5732E6002502F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		804E8C1D1E5732E6002502F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804E8C1C1E5732E6002502F5 /* pokeCloneGame.app */,
+				804E8C331E5732E6002502F5 /* pokeCloneGameTests.xctest */,
+				804E8C3E1E5732E6002502F5 /* pokeCloneGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804E8C1E1E5732E6002502F5 /* pokeCloneGame */ = {
+			isa = PBXGroup;
+			children = (
+				804E8C1F1E5732E6002502F5 /* AppDelegate.swift */,
+				804E8C211E5732E6002502F5 /* ViewController.swift */,
+				804E8C231E5732E6002502F5 /* Main.storyboard */,
+				804E8C291E5732E6002502F5 /* Assets.xcassets */,
+				804E8C2B1E5732E6002502F5 /* LaunchScreen.storyboard */,
+				804E8C2E1E5732E6002502F5 /* Info.plist */,
+				804E8C261E5732E6002502F5 /* pokeCloneGame.xcdatamodeld */,
+			);
+			path = pokeCloneGame;
+			sourceTree = "<group>";
+		};
+		804E8C361E5732E6002502F5 /* pokeCloneGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				804E8C371E5732E6002502F5 /* pokeCloneGameTests.swift */,
+				804E8C391E5732E6002502F5 /* Info.plist */,
+			);
+			path = pokeCloneGameTests;
+			sourceTree = "<group>";
+		};
+		804E8C411E5732E6002502F5 /* pokeCloneGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				804E8C421E5732E6002502F5 /* pokeCloneGameUITests.swift */,
+				804E8C441E5732E6002502F5 /* Info.plist */,
+			);
+			path = pokeCloneGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804E8C1B1E5732E6002502F5 /* pokeCloneGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804E8C471E5732E6002502F5 /* Build configuration list for PBXNativeTarget "pokeCloneGame" */;
+			buildPhases = (
+				804E8C181E5732E6002502F5 /* Sources */,
+				804E8C191E5732E6002502F5 /* Frameworks */,
+				804E8C1A1E5732E6002502F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pokeCloneGame;
+			productName = pokeCloneGame;
+			productReference = 804E8C1C1E5732E6002502F5 /* pokeCloneGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		804E8C321E5732E6002502F5 /* pokeCloneGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804E8C4A1E5732E6002502F5 /* Build configuration list for PBXNativeTarget "pokeCloneGameTests" */;
+			buildPhases = (
+				804E8C2F1E5732E6002502F5 /* Sources */,
+				804E8C301E5732E6002502F5 /* Frameworks */,
+				804E8C311E5732E6002502F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				804E8C351E5732E6002502F5 /* PBXTargetDependency */,
+			);
+			name = pokeCloneGameTests;
+			productName = pokeCloneGameTests;
+			productReference = 804E8C331E5732E6002502F5 /* pokeCloneGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		804E8C3D1E5732E6002502F5 /* pokeCloneGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804E8C4D1E5732E6002502F5 /* Build configuration list for PBXNativeTarget "pokeCloneGameUITests" */;
+			buildPhases = (
+				804E8C3A1E5732E6002502F5 /* Sources */,
+				804E8C3B1E5732E6002502F5 /* Frameworks */,
+				804E8C3C1E5732E6002502F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				804E8C401E5732E6002502F5 /* PBXTargetDependency */,
+			);
+			name = pokeCloneGameUITests;
+			productName = pokeCloneGameUITests;
+			productReference = 804E8C3E1E5732E6002502F5 /* pokeCloneGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804E8C141E5732E6002502F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Uchenna Ezeobi";
+				TargetAttributes = {
+					804E8C1B1E5732E6002502F5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = BQT87AKM67;
+						ProvisioningStyle = Automatic;
+					};
+					804E8C321E5732E6002502F5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = BQT87AKM67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 804E8C1B1E5732E6002502F5;
+					};
+					804E8C3D1E5732E6002502F5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = BQT87AKM67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 804E8C1B1E5732E6002502F5;
+					};
+				};
+			};
+			buildConfigurationList = 804E8C171E5732E6002502F5 /* Build configuration list for PBXProject "pokeCloneGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 804E8C131E5732E6002502F5;
+			productRefGroup = 804E8C1D1E5732E6002502F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804E8C1B1E5732E6002502F5 /* pokeCloneGame */,
+				804E8C321E5732E6002502F5 /* pokeCloneGameTests */,
+				804E8C3D1E5732E6002502F5 /* pokeCloneGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		804E8C1A1E5732E6002502F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804E8C2D1E5732E6002502F5 /* LaunchScreen.storyboard in Resources */,
+				804E8C2A1E5732E6002502F5 /* Assets.xcassets in Resources */,
+				804E8C251E5732E6002502F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804E8C311E5732E6002502F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804E8C3C1E5732E6002502F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804E8C181E5732E6002502F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804E8C221E5732E6002502F5 /* ViewController.swift in Sources */,
+				804E8C201E5732E6002502F5 /* AppDelegate.swift in Sources */,
+				804E8C281E5732E6002502F5 /* pokeCloneGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804E8C2F1E5732E6002502F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804E8C381E5732E6002502F5 /* pokeCloneGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804E8C3A1E5732E6002502F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804E8C431E5732E6002502F5 /* pokeCloneGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		804E8C351E5732E6002502F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 804E8C1B1E5732E6002502F5 /* pokeCloneGame */;
+			targetProxy = 804E8C341E5732E6002502F5 /* PBXContainerItemProxy */;
+		};
+		804E8C401E5732E6002502F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 804E8C1B1E5732E6002502F5 /* pokeCloneGame */;
+			targetProxy = 804E8C3F1E5732E6002502F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		804E8C231E5732E6002502F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804E8C241E5732E6002502F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		804E8C2B1E5732E6002502F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804E8C2C1E5732E6002502F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		804E8C451E5732E6002502F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		804E8C461E5732E6002502F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		804E8C481E5732E6002502F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQT87AKM67;
+				INFOPLIST_FILE = pokeCloneGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.uchenna.pokeCloneGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		804E8C491E5732E6002502F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQT87AKM67;
+				INFOPLIST_FILE = pokeCloneGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.uchenna.pokeCloneGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		804E8C4B1E5732E6002502F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQT87AKM67;
+				INFOPLIST_FILE = pokeCloneGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.uchenna.pokeCloneGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pokeCloneGame.app/pokeCloneGame";
+			};
+			name = Debug;
+		};
+		804E8C4C1E5732E6002502F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQT87AKM67;
+				INFOPLIST_FILE = pokeCloneGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.uchenna.pokeCloneGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pokeCloneGame.app/pokeCloneGame";
+			};
+			name = Release;
+		};
+		804E8C4E1E5732E6002502F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BQT87AKM67;
+				INFOPLIST_FILE = pokeCloneGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.uchenna.pokeCloneGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pokeCloneGame;
+			};
+			name = Debug;
+		};
+		804E8C4F1E5732E6002502F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BQT87AKM67;
+				INFOPLIST_FILE = pokeCloneGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.uchenna.pokeCloneGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pokeCloneGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804E8C171E5732E6002502F5 /* Build configuration list for PBXProject "pokeCloneGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E8C451E5732E6002502F5 /* Debug */,
+				804E8C461E5732E6002502F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804E8C471E5732E6002502F5 /* Build configuration list for PBXNativeTarget "pokeCloneGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E8C481E5732E6002502F5 /* Debug */,
+				804E8C491E5732E6002502F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		804E8C4A1E5732E6002502F5 /* Build configuration list for PBXNativeTarget "pokeCloneGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E8C4B1E5732E6002502F5 /* Debug */,
+				804E8C4C1E5732E6002502F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		804E8C4D1E5732E6002502F5 /* Build configuration list for PBXNativeTarget "pokeCloneGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E8C4E1E5732E6002502F5 /* Debug */,
+				804E8C4F1E5732E6002502F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		804E8C261E5732E6002502F5 /* pokeCloneGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				804E8C271E5732E6002502F5 /* pokeCloneGame.xcdatamodel */,
+			);
+			currentVersion = 804E8C271E5732E6002502F5 /* pokeCloneGame.xcdatamodel */;
+			path = pokeCloneGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 804E8C141E5732E6002502F5 /* Project object */;
+}
