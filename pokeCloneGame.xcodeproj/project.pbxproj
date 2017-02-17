@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		803C06CD1E573A27001B330A /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 803C06CC1E573A27001B330A /* pokemon.csv */; };
 		804E8C201E5732E6002502F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C1F1E5732E6002502F5 /* AppDelegate.swift */; };
 		804E8C221E5732E6002502F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C211E5732E6002502F5 /* ViewController.swift */; };
 		804E8C251E5732E6002502F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804E8C231E5732E6002502F5 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		803C06CC1E573A27001B330A /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "../../../../../Downloads/pokeapi-master/data/v1/pokemon.csv"; sourceTree = "<group>"; };
 		804E8C1C1E5732E6002502F5 /* pokeCloneGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokeCloneGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804E8C1F1E5732E6002502F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		804E8C211E5732E6002502F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				804E8C1F1E5732E6002502F5 /* AppDelegate.swift */,
+				803C06CC1E573A27001B330A /* pokemon.csv */,
 				804E8C211E5732E6002502F5 /* ViewController.swift */,
 				804E8C231E5732E6002502F5 /* Main.storyboard */,
 				804E8C291E5732E6002502F5 /* Assets.xcassets */,
@@ -240,6 +243,7 @@
 			files = (
 				804E8C2D1E5732E6002502F5 /* LaunchScreen.storyboard in Resources */,
 				804E8C2A1E5732E6002502F5 /* Assets.xcassets in Resources */,
+				803C06CD1E573A27001B330A /* pokemon.csv in Resources */,
 				804E8C251E5732E6002502F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 				804E8C491E5732E6002502F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		804E8C4A1E5732E6002502F5 /* Build configuration list for PBXNativeTarget "pokeCloneGameTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				804E8C4C1E5732E6002502F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		804E8C4D1E5732E6002502F5 /* Build configuration list for PBXNativeTarget "pokeCloneGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				804E8C4F1E5732E6002502F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
