@@ -132,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				803C06D81E574867001B330A /* PokeCollectionViewCell.swift */,
+				804E8C211E5732E6002502F5 /* ViewController.swift */,
+				803C06DF1E57A1E3001B330A /* DetailViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -153,15 +155,6 @@
 				803C06DA1E575A5E001B330A /* csv.swift */,
 			);
 			name = Utility;
-			sourceTree = "<group>";
-		};
-		803C06DE1E57A1B7001B330A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				804E8C211E5732E6002502F5 /* ViewController.swift */,
-				803C06DF1E57A1E3001B330A /* DetailViewController.swift */,
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 		804E8C131E5732E6002502F5 = {
@@ -194,7 +187,6 @@
 				804E8C1F1E5732E6002502F5 /* AppDelegate.swift */,
 				803C06DD1E57657D001B330A /* Utility */,
 				803C06DC1E576546001B330A /* Resources */,
-				803C06DE1E57A1B7001B330A /* View */,
 				804E8C231E5732E6002502F5 /* Main.storyboard */,
 				804E8C291E5732E6002502F5 /* Assets.xcassets */,
 				804E8C2B1E5732E6002502F5 /* LaunchScreen.storyboard */,
