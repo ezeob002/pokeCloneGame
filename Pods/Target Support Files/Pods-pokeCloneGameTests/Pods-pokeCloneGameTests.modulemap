@@ -1,0 +1,6 @@
+framework module Pods_pokeCloneGameTests {
+  umbrella header "Pods-pokeCloneGameTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
