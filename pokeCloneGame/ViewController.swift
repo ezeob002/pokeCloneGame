@@ -60,7 +60,6 @@ class ViewController: UIViewController {
         do {
             let csv = try CSV(contentsOfURL: path!)
             let rows = csv.rows
-            print(rows)
             
             for row in rows
             {
@@ -171,7 +170,7 @@ extension ViewController: UISearchBarDelegate {
         self.searchBar.endEditing(true)
     }
 }
-
+/*
 extension UIViewController {
     func hideKeyboardWhenTappedAroundTheScreen() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
@@ -180,7 +179,7 @@ extension UIViewController {
     func dismissKeyboard(){
        view.endEditing(true)
     }
-}
+}*/
 
 
 

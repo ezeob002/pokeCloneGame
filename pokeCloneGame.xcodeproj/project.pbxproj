@@ -17,6 +17,7 @@
 		803C06D91E574867001B330A /* PokeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803C06D81E574867001B330A /* PokeCollectionViewCell.swift */; };
 		803C06DB1E575A5E001B330A /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803C06DA1E575A5E001B330A /* csv.swift */; };
 		803C06E01E57A1E3001B330A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803C06DF1E57A1E3001B330A /* DetailViewController.swift */; };
+		803C06E21E58C994001B330A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803C06E11E58C994001B330A /* Constants.swift */; };
 		804E8C201E5732E6002502F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C1F1E5732E6002502F5 /* AppDelegate.swift */; };
 		804E8C221E5732E6002502F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E8C211E5732E6002502F5 /* ViewController.swift */; };
 		804E8C251E5732E6002502F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804E8C231E5732E6002502F5 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		803C06D81E574867001B330A /* PokeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCollectionViewCell.swift; sourceTree = "<group>"; };
 		803C06DA1E575A5E001B330A /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		803C06DF1E57A1E3001B330A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		803C06E11E58C994001B330A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		804E8C1C1E5732E6002502F5 /* pokeCloneGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokeCloneGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804E8C1F1E5732E6002502F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		804E8C211E5732E6002502F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				803C06DA1E575A5E001B330A /* csv.swift */,
+				803C06E11E58C994001B330A /* Constants.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				804E8C281E5732E6002502F5 /* pokeCloneGame.xcdatamodeld in Sources */,
 				803C06D01E573B42001B330A /* Pokemon.swift in Sources */,
 				803C06E01E57A1E3001B330A /* DetailViewController.swift in Sources */,
+				803C06E21E58C994001B330A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    var pokemon: Pokemon?
+    var pokemon: Pokemon!
     
     @IBOutlet weak var mainImage: UIImageView!
     @IBOutlet weak var descriptionLabel: UILabel!
@@ -22,7 +22,6 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var currentEvolutionLabel: UIImageView!
     @IBOutlet weak var nextEvolutionLabel: UIImageView!
     @IBOutlet weak var evolutionLabel: UILabel!
-    
     @IBOutlet weak var defenseLabel: UILabel!
     
 
@@ -30,12 +29,39 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let pokemonName = pokemon?.name {
-            nameLabel.text = pokemonName
-        } else {
-            print("name could not be found")
+        
+        nameLabel.text = pokemon.name.capitalized
+        let image = UIImage(named: "\(pokemon.pokedexId)")
+        mainImage.image = image
+        currentEvolutionLabel.image = image
+        pokedexLabel.text = "\(pokemon.pokedexId)"
+        pokemon.downloadPokemonDetail {
+            //whateevre we call here wil be done after completion
+            self.updateUI()
         }
         // Do any additional setup after loading the view.
+    }
+    
+    func updateUI() {
+        baseAttackLabel.text = pokemon.baseAttack
+        defenseLabel.text = pokemon.defense
+        heightLabel.text = pokemon.height
+        weightLabel.text = pokemon.weight
+        typeLabel.text = pokemon.type
+        descriptionLabel.text = pokemon.description
+        if pokemon.nextEvolutionId == "" {
+            
+            evolutionLabel.text = "No Evolutions"
+            nextEvolutionLabel.isHidden = true
+            
+        } else {
+            
+             nextEvolutionLabel.isHidden = false
+             nextEvolutionLabel.image = UIImage(named: pokemon.nextEvolutionId)
+            let str = "Next Evolution: \(pokemon.nextEvolutionName) - LVL \(pokemon.nextEvolutionLevel)"
+            evolutionLabel.text = str
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
